@@ -1,11 +1,7 @@
 {
   "extensions": [
-    "github.vscode-codeql",
     "ocamllabs.ocaml-platform",
-    "slevesque.vscode-zipexplorer"
   ],
-  "postCreateCommand": "git submodule init && git submodule update --recursive",
   "settings": {
-    "codeQL.runningQueries.memory": 2048
   }
  }
