@@ -1,0 +1,7 @@
+{
+  "extensions": [
+    "ocamllabs.ocaml-platform",
+    "slevesque.vscode-zipexplorer"
+  ],
+  "postCreateCommand": "opam init && opam switch create homework 4.09.0 && eval $(opam env) && opam install core dune merlin ounit2",
+ }
